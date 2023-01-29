@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, 'receitas/home.html', context={'nome': 'Ivancly Batista'})
+    return render(request, 'receitas/pages/home.html', context={'nome': 'Ivancly Batista'})
 
